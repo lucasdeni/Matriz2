@@ -6,9 +6,9 @@ namespace Matriz2
     {
         static void Main(string[] args)
         {
-            Console.Write("Número de linhas: "); // Definir o número de linhas
+            Console.Write("Quantas linhas? "); // Definir o número de linhas
             int n = int.Parse(Console.ReadLine()); 
-            Console.Write("Número de colunas: "); // Definir o número de colunas
+            Console.Write("Quantas colunas? "); // Definir o número de colunas
             int m = int.Parse(Console.ReadLine());
             int[,] mat = new int[n, m];
             Console.WriteLine();
