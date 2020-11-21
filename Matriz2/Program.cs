@@ -40,10 +40,22 @@ namespace Matriz2
                     if (mat[i, j] == x)
                     {
                         Console.WriteLine("Posição [" + i + ", " + j + "]: ");
-                        if ((j - 1) >= 0) Console.WriteLine("Esquerda: " + mat[i, j - 1]);
-                        if ((j + 1) < m) Console.WriteLine("Direita: " + mat[i, j + 1]);
-                        if ((i - 1) >= 0) Console.WriteLine("Acima: " + mat[i - 1, j]);
-                        if ((i + 1) < n) Console.WriteLine("Abaixo: " + mat[i + 1, j]);
+                        if ((j - 1) >= 0) 
+                        {
+                            Console.WriteLine("Esquerda: " + mat[i, j - 1]);
+                        }
+                        if ((j + 1) < m) 
+                        {
+                            Console.WriteLine("Direita: " + mat[i, j + 1]);
+                        }
+                        if ((i - 1) >= 0) 
+                        {
+                            Console.WriteLine("Acima: " + mat[i - 1, j]);
+                        }
+                        if ((i + 1) < n)
+                        {
+                            Console.WriteLine("Abaixo: " + mat[i + 1, j]);
+                        }
                         Console.WriteLine();
                     }
                 }
